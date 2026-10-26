@@ -218,3 +218,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local lab exclusions
+.DS_Store
+*.env
+*.pyc
+.venv/
+node_modules/
+.ipynb_checkpoints/
+.venv-1/
+
+# Private environment overrides; keep the shareable template
+.env.*
+!.env.example
+.venv*/
+
+# Rebuildable local stores (retain fixtures and replay caches)
+/data/index/
+/data/work/
+*.duckdb.wal
+
+# Local editor and temporary files
+.idea/
+.vscode/
+/tmp/

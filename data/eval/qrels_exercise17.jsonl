@@ -1,0 +1,3 @@
+{"qid": "w-13", "query": "How does the CFO's trailing net revenue retention explanation compare with the CIM's 118% claim?", "category": "cross_document", "scope": "deal_a", "relevant": {"DR-deal_a-002:t003": 2, "DR-deal_a-001:p0003_b002": 2}}
+{"qid": "w-14", "query": "How does the CEO describe customer concentration, and what numerical limit does the CIM claim?", "category": "cross_document", "scope": "deal_a", "relevant": {"DR-deal_a-002:t002": 2, "DR-deal_a-001:p0003_b001": 2}}
+{"qid": "w-15", "query": "Compare management's comments about change-of-control consent with the termination right in the Northline contract.", "category": "cross_document", "scope": "deal_a", "relevant": {"DR-deal_a-002:t004": 2, "DR-deal_a-003:p0001_b003": 2}}
