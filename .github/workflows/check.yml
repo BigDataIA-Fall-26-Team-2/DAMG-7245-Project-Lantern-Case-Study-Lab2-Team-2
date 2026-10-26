@@ -1,14 +1,30 @@
 name: lab2-kit-check
 on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
 jobs:
   check:
     runs-on: ubuntu-latest
+    env:
+      LANTERN_LLM_MODE: replay
+      PIP_NO_CACHE_DIR: "1"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install -r requirements.txt
-      - run: python tools/seed_replay_cache.py
-      - run: python -m pytest -q tests
-      - run: python -m pytest -q --nbmake notebooks
+      - name: Install CPU-only PyTorch
+        # Match the public version pinned in requirements.txt; avoid CUDA wheels.
+        run: python -m pip install --no-deps "torch==2.14.1+cpu" --index-url https://download.pytorch.org/whl/cpu
+      - name: Install project and notebook dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Verify dependencies and CPU build
+        run: |
+          python -m pip check
+          python -c "import torch; assert torch.version.cuda is None, 'CI must use CPU-only PyTorch'; print(torch.__version__)"
+      - name: Seed offline replay caches
+        run: python tools/seed_replay_cache.py
+      - name: Run unit tests
+        run: python -m pytest -q tests
+      - name: Run notebooks in replay mode
+        run: python -m pytest -q --nbmake notebooks
