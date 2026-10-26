@@ -1,0 +1,38 @@
+{
+  "company": "Apple Inc.",
+  "cik": "0000320193",
+  "start": "2025-10-14",
+  "end": "2026-10-14",
+  "source_url": "https://data.sec.gov/submissions/CIK0000320193.json",
+  "provenance": "Extracted from the user-saved live notebook output; filtered result snapshot, not the raw SEC response. Original retrieval timestamp was not recorded.",
+  "filings": [
+    {
+      "date": "2025-10-30",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "accession": "0000320193-25-000077",
+      "document": "aapl-20251030.htm"
+    },
+    {
+      "date": "2026-01-29",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "accession": "0000320193-26-000005",
+      "document": "aapl-20260129.htm"
+    },
+    {
+      "date": "2026-04-30",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "accession": "0000320193-26-000011",
+      "document": "aapl-20260430.htm"
+    },
+    {
+      "date": "2026-07-30",
+      "form": "8-K",
+      "items": "2.02,9.01",
+      "accession": "0000320193-26-000018",
+      "document": "aapl-20260730.htm"
+    }
+  ]
+}
