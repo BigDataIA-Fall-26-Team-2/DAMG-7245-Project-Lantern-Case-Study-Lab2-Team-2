@@ -1,0 +1,68 @@
+{
+  "test_deals": 90,
+  "probability_counts": [
+    {
+      "probability": 0.05,
+      "count": 10
+    },
+    {
+      "probability": 0.1,
+      "count": 3
+    },
+    {
+      "probability": 0.2,
+      "count": 8
+    },
+    {
+      "probability": 0.3,
+      "count": 13
+    },
+    {
+      "probability": 0.4,
+      "count": 8
+    },
+    {
+      "probability": 0.5,
+      "count": 16
+    },
+    {
+      "probability": 0.6,
+      "count": 13
+    },
+    {
+      "probability": 0.7,
+      "count": 9
+    },
+    {
+      "probability": 0.8,
+      "count": 3
+    },
+    {
+      "probability": 0.9,
+      "count": 3
+    },
+    {
+      "probability": 0.95,
+      "count": 4
+    }
+  ],
+  "calibrated_model": {
+    "auc": 0.681842672413793,
+    "brier": 0.20523255553773348
+  },
+  "llm": {
+    "auc": 0.7209051724137931,
+    "brier": 0.21083333333333334
+  },
+  "auc_difference_llm_minus_model": 0.03906250000000011,
+  "paired_bootstrap": {
+    "seed": 7,
+    "attempted": 2000,
+    "valid": 2000,
+    "skipped_single_class": 0,
+    "ci95": [
+      -0.11108960667600379,
+      0.20890014019467137
+    ]
+  }
+}

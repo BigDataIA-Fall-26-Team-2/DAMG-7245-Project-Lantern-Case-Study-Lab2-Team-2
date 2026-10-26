@@ -1,0 +1,51 @@
+{
+  "label_source": "Provided classroom fixture; not new team annotations",
+  "total_items": 20,
+  "agreed_items": 18,
+  "disagreements": [
+    {
+      "item_id": "j16",
+      "claim": "Revenue grew about 25% in FY2025.",
+      "cited_text": "Revenue | 26.4 | 33.07 | 41.2",
+      "human_a": 1,
+      "human_b": 0,
+      "judge": 1
+    },
+    {
+      "item_id": "j20",
+      "claim": "The contract term is 24 months.",
+      "cited_text": "Term: 36 months",
+      "human_a": 0,
+      "human_b": 1,
+      "judge": 1
+    }
+  ],
+  "comparisons": [
+    {
+      "comparison": "human A vs human B",
+      "items": 20,
+      "kappa": 0.7802197802197802
+    },
+    {
+      "comparison": "judge vs human A",
+      "items": 20,
+      "kappa": 0.8863636363636364
+    },
+    {
+      "comparison": "judge vs human B",
+      "items": 20,
+      "kappa": 0.8863636363636364
+    },
+    {
+      "comparison": "judge vs agreed-label subset",
+      "items": 18,
+      "kappa": 1.0
+    }
+  ],
+  "j16_derived_growth_pct": 24.584215300876934,
+  "analysis": {
+    "j16": "Rubric ambiguity: decide explicitly whether rounded derived values count as supported.",
+    "j20": "Incorrect support label: 24 months contradicts the cited 36 months; human B and judge are wrong."
+  },
+  "recommendation": "Report both individual comparisons and the agreed subset; adjudicate disagreements under a written rubric before full-set scoring. Do not treat exclusion as resolution."
+}

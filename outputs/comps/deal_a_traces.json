@@ -1,0 +1,1352 @@
+{
+  "facts": {
+    "F-SMPA-fy_rev": {
+      "fact_id": "F-SMPA-fy_rev",
+      "value": 820000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 2,
+        "ticker": "SMPA",
+        "column": "fy_revenue"
+      }
+    },
+    "F-SMPA-ytd_rev": {
+      "fact_id": "F-SMPA-ytd_rev",
+      "value": 430000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 2,
+        "ticker": "SMPA",
+        "column": "ytd_revenue_current"
+      }
+    },
+    "F-SMPA-ytd_rev_prior": {
+      "fact_id": "F-SMPA-ytd_rev_prior",
+      "value": 395000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 2,
+        "ticker": "SMPA",
+        "column": "ytd_revenue_prior"
+      }
+    },
+    "F-SMPA-fy_ebitda": {
+      "fact_id": "F-SMPA-fy_ebitda",
+      "value": 160000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 2,
+        "ticker": "SMPA",
+        "column": "fy_ebitda"
+      }
+    },
+    "F-SMPA-ytd_ebitda": {
+      "fact_id": "F-SMPA-ytd_ebitda",
+      "value": 88000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 2,
+        "ticker": "SMPA",
+        "column": "ytd_ebitda_current"
+      }
+    },
+    "F-SMPA-ytd_ebitda_prior": {
+      "fact_id": "F-SMPA-ytd_ebitda_prior",
+      "value": 79000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 2,
+        "ticker": "SMPA",
+        "column": "ytd_ebitda_prior"
+      }
+    },
+    "F-SMPA-price": {
+      "fact_id": "F-SMPA-price",
+      "value": 42.1,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/prices_asof_20260930.csv",
+        "row": 2,
+        "ticker": "SMPA",
+        "column": "close",
+        "as_of": "2026-09-30",
+        "currency": "USD"
+      }
+    },
+    "F-SMPA-shares": {
+      "fact_id": "F-SMPA-shares",
+      "value": 61000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 2,
+        "ticker": "SMPA",
+        "column": "shares_out"
+      }
+    },
+    "F-SMPA-debt": {
+      "fact_id": "F-SMPA-debt",
+      "value": 300000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 2,
+        "ticker": "SMPA",
+        "column": "debt"
+      }
+    },
+    "F-SMPA-cash": {
+      "fact_id": "F-SMPA-cash",
+      "value": 120000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 2,
+        "ticker": "SMPA",
+        "column": "cash"
+      }
+    },
+    "F-SMPA-preferred": {
+      "fact_id": "F-SMPA-preferred",
+      "value": 0.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 2,
+        "ticker": "SMPA",
+        "column": "preferred"
+      }
+    },
+    "F-SMPA-nci": {
+      "fact_id": "F-SMPA-nci",
+      "value": 0.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 2,
+        "ticker": "SMPA",
+        "column": "nci"
+      }
+    },
+    "F-SMPB-fy_rev": {
+      "fact_id": "F-SMPB-fy_rev",
+      "value": 240000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 3,
+        "ticker": "SMPB",
+        "column": "fy_revenue"
+      }
+    },
+    "F-SMPB-ytd_rev": {
+      "fact_id": "F-SMPB-ytd_rev",
+      "value": 128000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 3,
+        "ticker": "SMPB",
+        "column": "ytd_revenue_current"
+      }
+    },
+    "F-SMPB-ytd_rev_prior": {
+      "fact_id": "F-SMPB-ytd_rev_prior",
+      "value": 112000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 3,
+        "ticker": "SMPB",
+        "column": "ytd_revenue_prior"
+      }
+    },
+    "F-SMPB-fy_ebitda": {
+      "fact_id": "F-SMPB-fy_ebitda",
+      "value": 31000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 3,
+        "ticker": "SMPB",
+        "column": "fy_ebitda"
+      }
+    },
+    "F-SMPB-ytd_ebitda": {
+      "fact_id": "F-SMPB-ytd_ebitda",
+      "value": 18000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 3,
+        "ticker": "SMPB",
+        "column": "ytd_ebitda_current"
+      }
+    },
+    "F-SMPB-ytd_ebitda_prior": {
+      "fact_id": "F-SMPB-ytd_ebitda_prior",
+      "value": 14000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 3,
+        "ticker": "SMPB",
+        "column": "ytd_ebitda_prior"
+      }
+    },
+    "F-SMPB-price": {
+      "fact_id": "F-SMPB-price",
+      "value": 18.75,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/prices_asof_20260930.csv",
+        "row": 3,
+        "ticker": "SMPB",
+        "column": "close",
+        "as_of": "2026-09-30",
+        "currency": "USD"
+      }
+    },
+    "F-SMPB-shares": {
+      "fact_id": "F-SMPB-shares",
+      "value": 33000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 3,
+        "ticker": "SMPB",
+        "column": "shares_out"
+      }
+    },
+    "F-SMPB-debt": {
+      "fact_id": "F-SMPB-debt",
+      "value": 90000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 3,
+        "ticker": "SMPB",
+        "column": "debt"
+      }
+    },
+    "F-SMPB-cash": {
+      "fact_id": "F-SMPB-cash",
+      "value": 40000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 3,
+        "ticker": "SMPB",
+        "column": "cash"
+      }
+    },
+    "F-SMPB-preferred": {
+      "fact_id": "F-SMPB-preferred",
+      "value": 0.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 3,
+        "ticker": "SMPB",
+        "column": "preferred"
+      }
+    },
+    "F-SMPB-nci": {
+      "fact_id": "F-SMPB-nci",
+      "value": 5000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 3,
+        "ticker": "SMPB",
+        "column": "nci"
+      }
+    },
+    "F-SMPC-fy_rev": {
+      "fact_id": "F-SMPC-fy_rev",
+      "value": 1900000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 4,
+        "ticker": "SMPC",
+        "column": "fy_revenue"
+      }
+    },
+    "F-SMPC-ytd_rev": {
+      "fact_id": "F-SMPC-ytd_rev",
+      "value": 990000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 4,
+        "ticker": "SMPC",
+        "column": "ytd_revenue_current"
+      }
+    },
+    "F-SMPC-ytd_rev_prior": {
+      "fact_id": "F-SMPC-ytd_rev_prior",
+      "value": 940000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 4,
+        "ticker": "SMPC",
+        "column": "ytd_revenue_prior"
+      }
+    },
+    "F-SMPC-fy_ebitda": {
+      "fact_id": "F-SMPC-fy_ebitda",
+      "value": 410000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 4,
+        "ticker": "SMPC",
+        "column": "fy_ebitda"
+      }
+    },
+    "F-SMPC-ytd_ebitda": {
+      "fact_id": "F-SMPC-ytd_ebitda",
+      "value": 215000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 4,
+        "ticker": "SMPC",
+        "column": "ytd_ebitda_current"
+      }
+    },
+    "F-SMPC-ytd_ebitda_prior": {
+      "fact_id": "F-SMPC-ytd_ebitda_prior",
+      "value": 201000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 4,
+        "ticker": "SMPC",
+        "column": "ytd_ebitda_prior"
+      }
+    },
+    "F-SMPC-price": {
+      "fact_id": "F-SMPC-price",
+      "value": 96.4,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/prices_asof_20260930.csv",
+        "row": 4,
+        "ticker": "SMPC",
+        "column": "close",
+        "as_of": "2026-09-30",
+        "currency": "USD"
+      }
+    },
+    "F-SMPC-shares": {
+      "fact_id": "F-SMPC-shares",
+      "value": 52000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 4,
+        "ticker": "SMPC",
+        "column": "shares_out"
+      }
+    },
+    "F-SMPC-debt": {
+      "fact_id": "F-SMPC-debt",
+      "value": 650000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 4,
+        "ticker": "SMPC",
+        "column": "debt"
+      }
+    },
+    "F-SMPC-cash": {
+      "fact_id": "F-SMPC-cash",
+      "value": 300000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 4,
+        "ticker": "SMPC",
+        "column": "cash"
+      }
+    },
+    "F-SMPC-preferred": {
+      "fact_id": "F-SMPC-preferred",
+      "value": 50000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 4,
+        "ticker": "SMPC",
+        "column": "preferred"
+      }
+    },
+    "F-SMPC-nci": {
+      "fact_id": "F-SMPC-nci",
+      "value": 0.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 4,
+        "ticker": "SMPC",
+        "column": "nci"
+      }
+    },
+    "F-SMPD-fy_rev": {
+      "fact_id": "F-SMPD-fy_rev",
+      "value": 95000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 5,
+        "ticker": "SMPD",
+        "column": "fy_revenue"
+      }
+    },
+    "F-SMPD-ytd_rev": {
+      "fact_id": "F-SMPD-ytd_rev",
+      "value": 51000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 5,
+        "ticker": "SMPD",
+        "column": "ytd_revenue_current"
+      }
+    },
+    "F-SMPD-ytd_rev_prior": {
+      "fact_id": "F-SMPD-ytd_rev_prior",
+      "value": 44000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 5,
+        "ticker": "SMPD",
+        "column": "ytd_revenue_prior"
+      }
+    },
+    "F-SMPD-fy_ebitda": {
+      "fact_id": "F-SMPD-fy_ebitda",
+      "value": -4000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 5,
+        "ticker": "SMPD",
+        "column": "fy_ebitda"
+      }
+    },
+    "F-SMPD-ytd_ebitda": {
+      "fact_id": "F-SMPD-ytd_ebitda",
+      "value": 1000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 5,
+        "ticker": "SMPD",
+        "column": "ytd_ebitda_current"
+      }
+    },
+    "F-SMPD-ytd_ebitda_prior": {
+      "fact_id": "F-SMPD-ytd_ebitda_prior",
+      "value": -2000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 5,
+        "ticker": "SMPD",
+        "column": "ytd_ebitda_prior"
+      }
+    },
+    "F-SMPD-price": {
+      "fact_id": "F-SMPD-price",
+      "value": 7.85,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/prices_asof_20260930.csv",
+        "row": 5,
+        "ticker": "SMPD",
+        "column": "close",
+        "as_of": "2026-09-30",
+        "currency": "USD"
+      }
+    },
+    "F-SMPD-shares": {
+      "fact_id": "F-SMPD-shares",
+      "value": 40000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 5,
+        "ticker": "SMPD",
+        "column": "shares_out"
+      }
+    },
+    "F-SMPD-debt": {
+      "fact_id": "F-SMPD-debt",
+      "value": 10000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 5,
+        "ticker": "SMPD",
+        "column": "debt"
+      }
+    },
+    "F-SMPD-cash": {
+      "fact_id": "F-SMPD-cash",
+      "value": 25000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 5,
+        "ticker": "SMPD",
+        "column": "cash"
+      }
+    },
+    "F-SMPD-preferred": {
+      "fact_id": "F-SMPD-preferred",
+      "value": 0.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 5,
+        "ticker": "SMPD",
+        "column": "preferred"
+      }
+    },
+    "F-SMPD-nci": {
+      "fact_id": "F-SMPD-nci",
+      "value": 0.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 5,
+        "ticker": "SMPD",
+        "column": "nci"
+      }
+    },
+    "F-SMPE-fy_rev": {
+      "fact_id": "F-SMPE-fy_rev",
+      "value": 610000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 6,
+        "ticker": "SMPE",
+        "column": "fy_revenue"
+      }
+    },
+    "F-SMPE-ytd_rev": {
+      "fact_id": "F-SMPE-ytd_rev",
+      "value": 322000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 6,
+        "ticker": "SMPE",
+        "column": "ytd_revenue_current"
+      }
+    },
+    "F-SMPE-ytd_rev_prior": {
+      "fact_id": "F-SMPE-ytd_rev_prior",
+      "value": 300000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 6,
+        "ticker": "SMPE",
+        "column": "ytd_revenue_prior"
+      }
+    },
+    "F-SMPE-fy_ebitda": {
+      "fact_id": "F-SMPE-fy_ebitda",
+      "value": 122000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 6,
+        "ticker": "SMPE",
+        "column": "fy_ebitda"
+      }
+    },
+    "F-SMPE-ytd_ebitda": {
+      "fact_id": "F-SMPE-ytd_ebitda",
+      "value": 66000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 6,
+        "ticker": "SMPE",
+        "column": "ytd_ebitda_current"
+      }
+    },
+    "F-SMPE-ytd_ebitda_prior": {
+      "fact_id": "F-SMPE-ytd_ebitda_prior",
+      "value": 60000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 6,
+        "ticker": "SMPE",
+        "column": "ytd_ebitda_prior"
+      }
+    },
+    "F-SMPE-price": {
+      "fact_id": "F-SMPE-price",
+      "value": 55.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/prices_asof_20260930.csv",
+        "row": 6,
+        "ticker": "SMPE",
+        "column": "close",
+        "as_of": "2026-09-30",
+        "currency": "USD"
+      }
+    },
+    "F-SMPE-shares": {
+      "fact_id": "F-SMPE-shares",
+      "value": 44000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 6,
+        "ticker": "SMPE",
+        "column": "shares_out"
+      }
+    },
+    "F-SMPE-debt": {
+      "fact_id": "F-SMPE-debt",
+      "value": 210000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 6,
+        "ticker": "SMPE",
+        "column": "debt"
+      }
+    },
+    "F-SMPE-cash": {
+      "fact_id": "F-SMPE-cash",
+      "value": 95000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 6,
+        "ticker": "SMPE",
+        "column": "cash"
+      }
+    },
+    "F-SMPE-preferred": {
+      "fact_id": "F-SMPE-preferred",
+      "value": 0.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 6,
+        "ticker": "SMPE",
+        "column": "preferred"
+      }
+    },
+    "F-SMPE-nci": {
+      "fact_id": "F-SMPE-nci",
+      "value": 0.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 6,
+        "ticker": "SMPE",
+        "column": "nci"
+      }
+    },
+    "F-SMPF-fy_rev": {
+      "fact_id": "F-SMPF-fy_rev",
+      "value": 330000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 7,
+        "ticker": "SMPF",
+        "column": "fy_revenue"
+      }
+    },
+    "F-SMPF-ytd_rev": {
+      "fact_id": "F-SMPF-ytd_rev",
+      "value": 170000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 7,
+        "ticker": "SMPF",
+        "column": "ytd_revenue_current"
+      }
+    },
+    "F-SMPF-ytd_rev_prior": {
+      "fact_id": "F-SMPF-ytd_rev_prior",
+      "value": 158000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 7,
+        "ticker": "SMPF",
+        "column": "ytd_revenue_prior"
+      }
+    },
+    "F-SMPF-fy_ebitda": {
+      "fact_id": "F-SMPF-fy_ebitda",
+      "value": 52000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 7,
+        "ticker": "SMPF",
+        "column": "fy_ebitda"
+      }
+    },
+    "F-SMPF-ytd_ebitda": {
+      "fact_id": "F-SMPF-ytd_ebitda",
+      "value": 28000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 7,
+        "ticker": "SMPF",
+        "column": "ytd_ebitda_current"
+      }
+    },
+    "F-SMPF-ytd_ebitda_prior": {
+      "fact_id": "F-SMPF-ytd_ebitda_prior",
+      "value": 26000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 7,
+        "ticker": "SMPF",
+        "column": "ytd_ebitda_prior"
+      }
+    },
+    "F-SMPF-price": {
+      "fact_id": "F-SMPF-price",
+      "value": 23.3,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/prices_asof_20260930.csv",
+        "row": 7,
+        "ticker": "SMPF",
+        "column": "close",
+        "as_of": "2026-09-30",
+        "currency": "USD"
+      }
+    },
+    "F-SMPF-shares": {
+      "fact_id": "F-SMPF-shares",
+      "value": 48000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 7,
+        "ticker": "SMPF",
+        "column": "shares_out"
+      }
+    },
+    "F-SMPF-debt": {
+      "fact_id": "F-SMPF-debt",
+      "value": 0.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 7,
+        "ticker": "SMPF",
+        "column": "debt"
+      }
+    },
+    "F-SMPF-cash": {
+      "fact_id": "F-SMPF-cash",
+      "value": 60000000.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 7,
+        "ticker": "SMPF",
+        "column": "cash"
+      }
+    },
+    "F-SMPF-preferred": {
+      "fact_id": "F-SMPF-preferred",
+      "value": 0.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 7,
+        "ticker": "SMPF",
+        "column": "preferred"
+      }
+    },
+    "F-SMPF-nci": {
+      "fact_id": "F-SMPF-nci",
+      "value": 0.0,
+      "tier": 1,
+      "source_type": "fictional_classroom_fixture",
+      "tier_note": "Tier-1-like calculator input for this exercise; not a real filed or market fact.",
+      "citation": {
+        "kind": "csv_cell",
+        "source_path": "data/reference/comps_facts_sample.csv",
+        "row": 7,
+        "ticker": "SMPF",
+        "column": "nci"
+      }
+    }
+  },
+  "calculations": {
+    "b41edf7f5727": {
+      "calc": "ltm",
+      "value": 855000000.0,
+      "inputs": [
+        "F-SMPA-fy_rev",
+        "F-SMPA-ytd_rev",
+        "F-SMPA-ytd_rev_prior"
+      ],
+      "formula": "FY + YTD_cur - YTD_prior",
+      "calc_id": "b41edf7f5727"
+    },
+    "d68c65f5ec09": {
+      "calc": "ltm",
+      "value": 169000000.0,
+      "inputs": [
+        "F-SMPA-fy_ebitda",
+        "F-SMPA-ytd_ebitda",
+        "F-SMPA-ytd_ebitda_prior"
+      ],
+      "formula": "FY + YTD_cur - YTD_prior",
+      "calc_id": "d68c65f5ec09"
+    },
+    "3dbacaf9f994": {
+      "calc": "ev",
+      "value": 2748100000.0,
+      "inputs": [
+        "F-SMPA-price",
+        "F-SMPA-shares",
+        "F-SMPA-debt",
+        "F-SMPA-preferred",
+        "F-SMPA-nci",
+        "F-SMPA-cash"
+      ],
+      "formula": "P*sh+debt+pref+nci-cash",
+      "calc_id": "3dbacaf9f994"
+    },
+    "1f53c446513a": {
+      "calc": "ev_revenue",
+      "value": 3.2141520467836258,
+      "inputs": [
+        "3dbacaf9f994",
+        "b41edf7f5727"
+      ],
+      "formula": "EV / LTM revenue",
+      "calc_id": "1f53c446513a"
+    },
+    "afc9f4a34dd8": {
+      "calc": "ev_ebitda",
+      "value": 16.26094674556213,
+      "inputs": [
+        "3dbacaf9f994",
+        "d68c65f5ec09"
+      ],
+      "formula": "EV / LTM EBITDA",
+      "calc_id": "afc9f4a34dd8"
+    },
+    "8c4fd6fed5a3": {
+      "calc": "ltm",
+      "value": 256000000.0,
+      "inputs": [
+        "F-SMPB-fy_rev",
+        "F-SMPB-ytd_rev",
+        "F-SMPB-ytd_rev_prior"
+      ],
+      "formula": "FY + YTD_cur - YTD_prior",
+      "calc_id": "8c4fd6fed5a3"
+    },
+    "3190071feb7b": {
+      "calc": "ltm",
+      "value": 35000000.0,
+      "inputs": [
+        "F-SMPB-fy_ebitda",
+        "F-SMPB-ytd_ebitda",
+        "F-SMPB-ytd_ebitda_prior"
+      ],
+      "formula": "FY + YTD_cur - YTD_prior",
+      "calc_id": "3190071feb7b"
+    },
+    "98d3c15e9b2d": {
+      "calc": "ev",
+      "value": 673750000.0,
+      "inputs": [
+        "F-SMPB-price",
+        "F-SMPB-shares",
+        "F-SMPB-debt",
+        "F-SMPB-preferred",
+        "F-SMPB-nci",
+        "F-SMPB-cash"
+      ],
+      "formula": "P*sh+debt+pref+nci-cash",
+      "calc_id": "98d3c15e9b2d"
+    },
+    "401bd14d3f0d": {
+      "calc": "ev_revenue",
+      "value": 2.6318359375,
+      "inputs": [
+        "98d3c15e9b2d",
+        "8c4fd6fed5a3"
+      ],
+      "formula": "EV / LTM revenue",
+      "calc_id": "401bd14d3f0d"
+    },
+    "4addb6b168ab": {
+      "calc": "ev_ebitda",
+      "value": 19.25,
+      "inputs": [
+        "98d3c15e9b2d",
+        "3190071feb7b"
+      ],
+      "formula": "EV / LTM EBITDA",
+      "calc_id": "4addb6b168ab"
+    },
+    "24b571887334": {
+      "calc": "ltm",
+      "value": 1950000000.0,
+      "inputs": [
+        "F-SMPC-fy_rev",
+        "F-SMPC-ytd_rev",
+        "F-SMPC-ytd_rev_prior"
+      ],
+      "formula": "FY + YTD_cur - YTD_prior",
+      "calc_id": "24b571887334"
+    },
+    "9e74ed56db41": {
+      "calc": "ltm",
+      "value": 424000000.0,
+      "inputs": [
+        "F-SMPC-fy_ebitda",
+        "F-SMPC-ytd_ebitda",
+        "F-SMPC-ytd_ebitda_prior"
+      ],
+      "formula": "FY + YTD_cur - YTD_prior",
+      "calc_id": "9e74ed56db41"
+    },
+    "3f679c962b99": {
+      "calc": "ev",
+      "value": 5412800000.0,
+      "inputs": [
+        "F-SMPC-price",
+        "F-SMPC-shares",
+        "F-SMPC-debt",
+        "F-SMPC-preferred",
+        "F-SMPC-nci",
+        "F-SMPC-cash"
+      ],
+      "formula": "P*sh+debt+pref+nci-cash",
+      "calc_id": "3f679c962b99"
+    },
+    "d1272cf1e4bb": {
+      "calc": "ev_revenue",
+      "value": 2.7757948717948717,
+      "inputs": [
+        "3f679c962b99",
+        "24b571887334"
+      ],
+      "formula": "EV / LTM revenue",
+      "calc_id": "d1272cf1e4bb"
+    },
+    "dcdc8105a4d8": {
+      "calc": "ev_ebitda",
+      "value": 12.766037735849057,
+      "inputs": [
+        "3f679c962b99",
+        "9e74ed56db41"
+      ],
+      "formula": "EV / LTM EBITDA",
+      "calc_id": "dcdc8105a4d8"
+    },
+    "52f8b517fea1": {
+      "calc": "ltm",
+      "value": 102000000.0,
+      "inputs": [
+        "F-SMPD-fy_rev",
+        "F-SMPD-ytd_rev",
+        "F-SMPD-ytd_rev_prior"
+      ],
+      "formula": "FY + YTD_cur - YTD_prior",
+      "calc_id": "52f8b517fea1"
+    },
+    "33fe919b30fb": {
+      "calc": "ltm",
+      "value": -1000000.0,
+      "inputs": [
+        "F-SMPD-fy_ebitda",
+        "F-SMPD-ytd_ebitda",
+        "F-SMPD-ytd_ebitda_prior"
+      ],
+      "formula": "FY + YTD_cur - YTD_prior",
+      "calc_id": "33fe919b30fb"
+    },
+    "b953a0023cbe": {
+      "calc": "ev",
+      "value": 299000000.0,
+      "inputs": [
+        "F-SMPD-price",
+        "F-SMPD-shares",
+        "F-SMPD-debt",
+        "F-SMPD-preferred",
+        "F-SMPD-nci",
+        "F-SMPD-cash"
+      ],
+      "formula": "P*sh+debt+pref+nci-cash",
+      "calc_id": "b953a0023cbe"
+    },
+    "54fb1aeb3afb": {
+      "calc": "ev_revenue",
+      "value": 2.9313725490196076,
+      "inputs": [
+        "b953a0023cbe",
+        "52f8b517fea1"
+      ],
+      "formula": "EV / LTM revenue",
+      "calc_id": "54fb1aeb3afb"
+    },
+    "c2821eb38f8c": {
+      "calc": "ltm",
+      "value": 632000000.0,
+      "inputs": [
+        "F-SMPE-fy_rev",
+        "F-SMPE-ytd_rev",
+        "F-SMPE-ytd_rev_prior"
+      ],
+      "formula": "FY + YTD_cur - YTD_prior",
+      "calc_id": "c2821eb38f8c"
+    },
+    "660a4441772e": {
+      "calc": "ltm",
+      "value": 128000000.0,
+      "inputs": [
+        "F-SMPE-fy_ebitda",
+        "F-SMPE-ytd_ebitda",
+        "F-SMPE-ytd_ebitda_prior"
+      ],
+      "formula": "FY + YTD_cur - YTD_prior",
+      "calc_id": "660a4441772e"
+    },
+    "422b4d932ee2": {
+      "calc": "ev",
+      "value": 2535000000.0,
+      "inputs": [
+        "F-SMPE-price",
+        "F-SMPE-shares",
+        "F-SMPE-debt",
+        "F-SMPE-preferred",
+        "F-SMPE-nci",
+        "F-SMPE-cash"
+      ],
+      "formula": "P*sh+debt+pref+nci-cash",
+      "calc_id": "422b4d932ee2"
+    },
+    "4c7d3a3bdb88": {
+      "calc": "ev_revenue",
+      "value": 4.011075949367089,
+      "inputs": [
+        "422b4d932ee2",
+        "c2821eb38f8c"
+      ],
+      "formula": "EV / LTM revenue",
+      "calc_id": "4c7d3a3bdb88"
+    },
+    "3c11e070a2d6": {
+      "calc": "ev_ebitda",
+      "value": 19.8046875,
+      "inputs": [
+        "422b4d932ee2",
+        "660a4441772e"
+      ],
+      "formula": "EV / LTM EBITDA",
+      "calc_id": "3c11e070a2d6"
+    },
+    "cb9fd36ab516": {
+      "calc": "ltm",
+      "value": 342000000.0,
+      "inputs": [
+        "F-SMPF-fy_rev",
+        "F-SMPF-ytd_rev",
+        "F-SMPF-ytd_rev_prior"
+      ],
+      "formula": "FY + YTD_cur - YTD_prior",
+      "calc_id": "cb9fd36ab516"
+    },
+    "201a8d4c278d": {
+      "calc": "ltm",
+      "value": 54000000.0,
+      "inputs": [
+        "F-SMPF-fy_ebitda",
+        "F-SMPF-ytd_ebitda",
+        "F-SMPF-ytd_ebitda_prior"
+      ],
+      "formula": "FY + YTD_cur - YTD_prior",
+      "calc_id": "201a8d4c278d"
+    },
+    "c8371e2bf422": {
+      "calc": "ev",
+      "value": 1058400000.0,
+      "inputs": [
+        "F-SMPF-price",
+        "F-SMPF-shares",
+        "F-SMPF-debt",
+        "F-SMPF-preferred",
+        "F-SMPF-nci",
+        "F-SMPF-cash"
+      ],
+      "formula": "P*sh+debt+pref+nci-cash",
+      "calc_id": "c8371e2bf422"
+    },
+    "4c3421af0f71": {
+      "calc": "ev_revenue",
+      "value": 3.094736842105263,
+      "inputs": [
+        "c8371e2bf422",
+        "cb9fd36ab516"
+      ],
+      "formula": "EV / LTM revenue",
+      "calc_id": "4c3421af0f71"
+    },
+    "3ca84721b262": {
+      "calc": "ev_ebitda",
+      "value": 19.6,
+      "inputs": [
+        "c8371e2bf422",
+        "201a8d4c278d"
+      ],
+      "formula": "EV / LTM EBITDA",
+      "calc_id": "3ca84721b262"
+    }
+  }
+}
